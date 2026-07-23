@@ -50,8 +50,8 @@ li { margin-bottom: 6px; }
 <div class="kpi-row">
 <div class="kpi green"><div class="value">¥23,535</div><div class="label">每月节省租金</div></div>
 <div class="kpi green"><div class="value">¥282,420</div><div class="label">每年节省</div></div>
-<div class="kpi blue"><div class="value">¥45,531</div><div class="label">搬仓直接成本</div></div>
-<div class="kpi red"><div class="value">18.3个月</div><div class="label">最长回本周期</div></div>
+<div class="kpi blue"><div class="value">¥53,638</div><div class="label">搬仓直接成本</div></div>
+<div class="kpi red"><div class="value">12.0个月</div><div class="label">最长回本周期</div></div>
 </div>
 
 <!-- 基本信息 -->
@@ -94,20 +94,25 @@ li { margin-bottom: 6px; }
 </table>
 
 <h3>运输测算 — 两种车型对比</h3>
-<p class="note">成品每包体积：120×100×50cm ｜ 半成品每包体积：80×75×45cm</p>
+<p class="note">成品每包实际尺寸：120×100×50cm ｜ 半成品每包：80×75×45cm<br>
+⚠️ 编织袋为软包，非标准纸箱，按实际装车利用率80%折算（含鼓包间隙、堆码变形）</p>
 <table>
-<tr><th>项目</th><th>9.6米车</th><th>7.6米车</th></tr>
-<tr><td>车厢内径</td><td>960×230×240cm</td><td>760×230×240cm</td></tr>
-<tr><td>成品每趟装载</td><td>68包</td><td>48包</td></tr>
-<tr><td>成品趟数（5,122包）</td><td>76趟</td><td>107趟</td></tr>
-<tr><td>半成品每趟装载</td><td>180包</td><td>135包</td></tr>
-<tr><td>半成品趟数（227包）</td><td>2趟</td><td>2趟</td></tr>
-<tr><td>杂物</td><td>—</td><td>1趟</td></tr>
-<tr class="highlight"><td><b>总趟数</b></td><td><b>78趟</b></td><td><b>110趟</b></td></tr>
-<tr><td>单价</td><td>¥450/趟</td><td>¥350/趟</td></tr>
-<tr class="highlight"><td><b>运输费用</b></td><td><b>¥35,100</b></td><td><b>¥38,500</b></td></tr>
+<tr><th>项目</th><th>9.6米车</th><th>7.6米车</th><th>计算依据</th></tr>
+<tr><td>车厢内径</td><td>960×230×240cm</td><td>760×230×240cm</td><td>—</td></tr>
+<tr><td>理论容积</td><td>53立方</td><td>42立方</td><td>—</td></tr>
+<tr><td>成品理论满载</td><td>68包</td><td>48包</td><td>按最优摆法计算</td></tr>
+<tr><td>成品实际装载（×80%）</td><td><b>55包</b></td><td><b>38包</b></td><td>软包利用率折损</td></tr>
+<tr><td>成品趟数（5,122包）</td><td><b>94趟</b></td><td><b>135趟</b></td><td></td></tr>
+<tr><td>半成品理论满载</td><td>180包</td><td>135包</td><td>80×75×45cm码放</td></tr>
+<tr><td>半成品实际装载（×80%）</td><td><b>144包</b></td><td><b>108包</b></td><td>软包利用率折损</td></tr>
+<tr><td>半成品趟数（227包）</td><td>2趟</td><td>3趟</td><td></td></tr>
+<tr><td>杂物（货架/设备等）</td><td>1趟</td><td>1趟</td><td>7.6米即可</td></tr>
+<tr class="highlight"><td><b>总趟数</b></td><td><b>97趟</b></td><td><b>139趟</b></td><td></td></tr>
+<tr><td>单价</td><td>¥450/趟</td><td>¥350/趟</td><td></td></tr>
+<tr class="highlight"><td><b>运输费用</b></td><td><b>¥43,650</b></td><td><b>¥48,650</b></td><td></td></tr>
 </table>
-<p class="note">💡 9.6米车比7.6米少32趟，运费还省¥3,400，推荐使用9.6米车。</p>
+<p class="note">💡 9.6米车少跑42趟，但单价贵¥100。综合运费9.6米省¥5,000。<br>
+建议：优先用9.6米减少趟数（少占用装卸时间），搬仓周期更短。</p>
 </div>
 
 <!-- 费用 -->
@@ -117,12 +122,12 @@ li { margin-bottom: 6px; }
 <tr><th>项目</th><th>数量</th><th>单价</th><th>金额</th></tr>
 <tr><td>编织袋（130×155cm）</td><td>5,122个</td><td>¥1.95</td><td>¥9,988</td></tr>
 <tr><td>编织袋（半成品用）</td><td>—</td><td>—</td><td>¥0（忽略）</td></tr>
-<tr><td>运输方案A（全用9.6米）</td><td>78趟</td><td>¥450</td><td>¥35,100</td></tr>
-<tr><td>运输方案B（全用7.6米）</td><td>110趟</td><td>¥350</td><td>¥38,500</td></tr>
+<tr><td>运输方案A（全用9.6米）</td><td>97趟</td><td>¥450</td><td>¥43,650</td></tr>
+<tr><td>运输方案B（全用7.6米）</td><td>139趟</td><td>¥350</td><td>¥48,650</td></tr>
 <tr><td colspan="4" class="note">⬆️ 以下按方案A（9.6米）计算总费用</td></tr>
-<tr class="highlight"><td><b>搬仓直接成本</b></td><td></td><td></td><td><b>¥45,438</b></td></tr>
+<tr class="highlight"><td><b>搬仓直接成本</b></td><td></td><td></td><td><b>¥53,638</b></td></tr>
 <tr><td>搬运人工（估）</td><td>8人×5天</td><td>¥300/人天</td><td>¥12,000</td></tr>
-<tr><td><b>总搬仓成本</b></td><td></td><td></td><td><b>¥57,438</b></td></tr>
+<tr><td><b>总搬仓成本</b></td><td></td><td></td><td><b>¥65,638</b></td></tr>
 </table>
 </div>
 
