@@ -50,8 +50,8 @@ li { margin-bottom: 6px; }
 <div class="kpi-row">
 <div class="kpi green"><div class="value">¥23,614</div><div class="label">每月节省（含水电）</div></div>
 <div class="kpi green"><div class="value">¥283,368</div><div class="label">每年节省</div></div>
-<div class="kpi blue"><div class="value">¥30,848</div><div class="label">搬仓直接成本</div></div>
-<div class="kpi red"><div class="value">11.0个月</div><div class="label">最长回本周期（押金不退）</div></div>
+<div class="kpi blue"><div class="value">¥96,213</div><div class="label">搬仓总成本</div></div>
+<div class="kpi red"><div class="value">13.3个月</div><div class="label">最长回本周期（押金不退）</div></div>
 </div>
 
 <!-- 基本信息 -->
@@ -75,84 +75,79 @@ li { margin-bottom: 6px; }
 
 <!-- 库存与搬运 -->
 <div class="section">
-<h2>📦 搬运量测算（按实际装袋数据）</h2>
-<h3>成品库存（418,525件 → 3791包）</h3>
-<table>
-<tr><th>品类</th><th>库存</th><th>编织袋</th><th>每袋装量</th><th>包数</th><th>每包体积</th></tr>
-<tr><td>短袖T恤</td><td>162,111</td><td>120×140</td><td>200件</td><td>811</td><td>90×80×50cm</td></tr>
-<tr><td>长裤</td><td>84,123</td><td>120×140</td><td>90件</td><td>935</td><td>90×80×50cm</td></tr>
-<tr><td>外套</td><td>42,622</td><td>130×155</td><td>60件</td><td>711</td><td>120×100×50cm</td></tr>
-<tr><td>长袖T恤</td><td>37,863</td><td>120×140</td><td>200件</td><td>190</td><td>90×80×50cm</td></tr>
-<tr><td>短裤</td><td>27,138</td><td>120×140</td><td>90件</td><td>302</td><td>90×80×50cm</td></tr>
-<tr><td>卫衣</td><td>25,155</td><td>130×155</td><td>70件</td><td>360</td><td>95×90×40cm</td></tr>
-<tr><td>羽绒外套</td><td>17,050</td><td>130×155</td><td>60件</td><td>285</td><td>120×100×50cm</td></tr>
-<tr><td>背心</td><td>9,946</td><td>120×140</td><td>250件</td><td>40</td><td>90×80×50cm</td></tr>
-<tr><td>毛衣</td><td>9,389</td><td>130×155</td><td>70件</td><td>135</td><td>95×90×40cm</td></tr>
-<tr><td>其他（6类）</td><td>3,128</td><td>120×140</td><td>90-200件</td><td>22</td><td>90×80×50cm</td></tr>
-<tr class="highlight"><td><b>成品合计</b></td><td><b>418,525件</b></td><td></td><td></td><td><b>3791包</b></td><td></td></tr>
-</table>
-<p class="note">编织袋用量：120×140cm = 2300个 ｜ 130×155cm = 1491个</p>
+<h2>📦 搬运量测算</h2>
+<p class="note">⚠️ 秋冬商品（毛衣/外套/卫衣/羽绒）因面料蓬松厚实，每袋装量减少；其他品类按实际经验打9折</p>
 
-<h3>半成品（54,361件 → 227包）</h3>
+<h3>成品库存（418,525件 → 5,097包）</h3>
 <table>
-<tr><th>总量</th><th>每包装量</th><th>包数</th><th>每包体积</th></tr>
-<tr><td>54,361件</td><td>240件</td><td>227包</td><td>80×75×45cm</td></tr>
+<tr><th>品类</th><th>库存</th><th>编织袋</th><th>每袋装量</th><th>包数</th><th>每包约重</th></tr>
+<tr><td>短袖T恤</td><td>162,111</td><td>120×140</td><td>180件</td><td>901</td><td>15kg</td></tr>
+<tr><td>长裤</td><td>84,123</td><td>120×140</td><td>80件</td><td>1,052</td><td>18kg</td></tr>
+<tr><td>外套 ⚠️</td><td>42,622</td><td>130×155</td><td>40件</td><td>1,066</td><td>15kg</td></tr>
+<tr><td>长袖T恤</td><td>37,863</td><td>120×140</td><td>160件</td><td>237</td><td>16kg</td></tr>
+<tr><td>短裤</td><td>27,138</td><td>120×140</td><td>80件</td><td>340</td><td>15kg</td></tr>
+<tr><td>卫衣 ⚠️</td><td>25,155</td><td>130×155</td><td>55件</td><td>458</td><td>20kg</td></tr>
+<tr><td>羽绒外套 ⚠️</td><td>17,050</td><td>130×155</td><td>25件</td><td>682</td><td>10kg</td></tr>
+<tr><td>背心</td><td>9,946</td><td>120×140</td><td>250件</td><td>40</td><td>8kg</td></tr>
+<tr><td>毛衣 ⚠️</td><td>9,389</td><td>130×155</td><td>50件</td><td>188</td><td>18kg</td></tr>
+<tr><td>其他（6类）</td><td>3,128</td><td>120×140</td><td>70-180件</td><td>133</td><td>12-20kg</td></tr>
+<tr class="highlight"><td><b>成品合计</b></td><td><b>418,525件</b></td><td></td><td></td><td><b>5,097包</b></td><td><b>≈78.5吨</b></td></tr>
 </table>
 
-<h3>货架（418节）</h3>
-<table>
-<tr><th>区域</th><th>排数</th><th>每排节数</th><th>类型</th><th>规格</th><th>节数</th></tr>
-<tr><td>A区</td><td>19排</td><td>5节</td><td>单排</td><td>1.5×0.6×2m</td><td>95节</td></tr>
-<tr><td>B区</td><td>19排</td><td>4节</td><td>单排</td><td>1.5×0.6×2m</td><td>76节</td></tr>
-<tr><td>C区</td><td>16排</td><td>7节</td><td>双排</td><td>1.5×0.6×2m</td><td>112节</td></tr>
-<tr><td>D区</td><td>11排</td><td>5节</td><td>双排</td><td>1.5×0.6×2m</td><td>55节</td></tr>
-<tr><td>E/F/G/H区(80%)</td><td>—</td><td>—</td><td>双排</td><td>1.5×0.6×2m</td><td>62节</td></tr>
-<tr><td>E/F/G/H区(20%)</td><td>—</td><td>—</td><td>单排</td><td>2×0.6×2.5m</td><td>18节</td></tr>
-<tr class="highlight"><td><b>合计</b></td><td><b>86排</b></td><td></td><td></td><td></td><td><b>418节</b></td></tr>
-</table>
-<p class="note">全部货架拆散为立柱+横杆+层板运输：<br>
-层板约2090块（≈38m³）+ 立柱横杆框架（≈5m³）= 总体积约43m³<br>
-9.6米车容积53m³ → <b>3趟可运完</b>（比整架运输省34趟）</p>
+<h3>半成品（54,361件 → 227包，约4.5吨）</h3>
 
 <h3>杂品（7,954件 → 106包）</h3>
 <table>
 <tr><th>品类</th><th>数量</th><th>每袋装量</th><th>包数</th></tr>
 <tr><td>背包</td><td>2,626</td><td>30个</td><td>88包</td></tr>
 <tr><td>饰品+袜子+围巾+帽子</td><td>5,328</td><td>300件</td><td>18包</td></tr>
-<tr class="highlight"><td><b>杂品合计</b></td><td><b>7,954</b></td><td></td><td><b>106包</b></td></tr>
 </table>
-<p class="note">杂品使用120×140cm编织袋，体积按90×80×50cm计</p>
 
-<h3>运输测算 — 两种车型对比</h3>
-<p class="note">按编织袋软包实际利用率80%折算（含鼓包间隙、堆码变形）</p>
+<h3>货架（418节，拆散运输）</h3>
 <table>
-<tr><th>包体积</th><th>包数</th><th>9.6米每趟（理论→实际）</th><th>9.6米趟数</th><th>7.6米每趟（理论→实际）</th><th>7.6米趟数</th></tr>
-<tr><td>90×80×50cm</td><td>2,406</td><td>120→96包</td><td>26趟</td><td>96→76包</td><td>32趟</td></tr>
-<tr><td>95×90×40cm</td><td>495</td><td>120→96包</td><td>6趟</td><td>96→76包</td><td>7趟</td></tr>
-<tr><td>120×100×50cm</td><td>996</td><td>76→60包</td><td>17趟</td><td>60→48包</td><td>21趟</td></tr>
-<tr><td>半成品 80×75×45cm</td><td>227</td><td>180→144包</td><td>2趟</td><td>135→108包</td><td>3趟</td></tr>
-<tr><td>货架（418节拆散运输）</td><td>418节</td><td>层板+框架≈43m³</td><td>3趟</td><td>—</td><td>4趟</td></tr>
-<tr class="highlight"><td><b>合计</b></td><td><b>3791+227包</b></td><td></td><td><b>48趟</b></td><td></td><td><b>60趟</b></td></tr>
-<tr><td>单价</td><td></td><td></td><td>¥450/趟</td><td></td><td>¥350/趟</td></tr>
-<tr class="highlight"><td><b>运输费用</b></td><td></td><td></td><td><b>¥23,850</b></td><td></td><td><b>¥23,100</b></td></tr>
+<tr><th>区域</th><th>类型</th><th>规格</th><th>节数</th></tr>
+<tr><td>A/B区</td><td>单排</td><td>1.5×0.6×2m</td><td>171节</td></tr>
+<tr><td>C/D区</td><td>双排</td><td>1.5×0.6×2m</td><td>167节</td></tr>
+<tr><td>E/F/G/H区(80%)</td><td>双排</td><td>1.5×0.6×2m</td><td>62节</td></tr>
+<tr><td>E/F/G/H区(20%)</td><td>单排</td><td>2×0.6×2.5m</td><td>18节</td></tr>
+<tr class="highlight"><td><b>合计</b></td><td></td><td></td><td><b>418节</b></td></tr>
 </table>
-<p class="note">💡 两种车型运费接近（差¥900），9.6米少跑22趟更省时间，推荐9.6米。</p>
+<p class="note">全部拆散为立柱+横杆+层板运输，体积约43m³，9.6米车3趟可运完</p>
+
+<h3>运输测算</h3>
+<p class="note">编织袋软包按实际利用率80%折算</p>
+<table>
+<tr><th>类别</th><th>包数</th><th>9.6米每趟</th><th>9.6米趟数</th><th>7.6米每趟</th><th>7.6米趟数</th></tr>
+<tr><td>成品90×80×50cm包</td><td>2,703</td><td>96包</td><td>29趟</td><td>76包</td><td>36趟</td></tr>
+<tr><td>成品95×90×40cm包</td><td>646</td><td>96包</td><td>7趟</td><td>76包</td><td>9趟</td></tr>
+<tr><td>成品120×100×50cm包</td><td>1,748</td><td>60包</td><td>30趟</td><td>48包</td><td>37趟</td></tr>
+<tr><td>半成品80×75×45cm</td><td>227</td><td>144包</td><td>2趟</td><td>108包</td><td>3趟</td></tr>
+<tr><td>货架（拆散）</td><td>418节</td><td>—</td><td>3趟</td><td>—</td><td>4趟</td></tr>
+<tr class="highlight"><td><b>合计</b></td><td></td><td></td><td><b>71趟</b></td><td></td><td><b>89趟</b></td></tr>
+<tr><td>单价</td><td></td><td></td><td>¥450/趟</td><td></td><td>¥350/趟</td></tr>
+<tr class="highlight"><td><b>运费</b></td><td></td><td></td><td><b>¥31,950</b></td><td></td><td><b>¥31,150</b></td></tr>
+</table>
 </div>
 
 <!-- 费用 -->
 <div class="section">
 <h2>💰 搬仓费用明细</h2>
 <table>
-<tr><th>项目</th><th>数量</th><th>单价</th><th>金额</th></tr>
-<tr><td>编织袋 120×140cm</td><td>2,406个</td><td>¥1.70</td><td>¥4,090</td></tr>
-<tr><td>编织袋 130×155cm</td><td>1491个</td><td>¥1.95</td><td>¥2,907</td></tr>
-<tr><td>运输方案A（9.6米车）</td><td>53趟</td><td>¥450</td><td>¥23,850</td></tr>
-<tr><td>运输方案B（7.6米车）</td><td>66趟</td><td>¥350</td><td>¥23,100</td></tr>
-<tr><td colspan="4" class="note">⬆️ 以下按方案A（9.6米）计算总费用</td></tr>
-<tr class="highlight"><td><b>搬仓直接成本</b></td><td></td><td></td><td><b>¥30,848</b></td></tr>
-<tr><td>搬运人工（估）</td><td>8人×5天</td><td>¥300/人天</td><td>¥12,000</td></tr>
-<tr class="highlight"><td><b>总搬仓成本</b></td><td></td><td></td><td><b>¥42,848</b></td></tr>
+<tr><th>项目</th><th>明细</th><th>金额</th></tr>
+<tr><td colspan="3"><b>材料费</b></td></tr>
+<tr><td>编织袋 120×140cm</td><td>2,703个 × ¥1.70</td><td>¥4,595</td></tr>
+<tr><td>编织袋 130×155cm</td><td>2,394个 × ¥1.95</td><td>¥4,668</td></tr>
+<tr><td colspan="3"><b>运输费（按9.6米车）</b></td></tr>
+<tr><td>货物运输</td><td>68趟 × ¥450</td><td>¥30,600</td></tr>
+<tr><td>货架运输</td><td>3趟 × ¥450</td><td>¥1,350</td></tr>
+<tr><td colspan="3"><b>人工费（广州2026标准）</b></td></tr>
+<tr><td>搬运工（装卸货物）</td><td>14天 × 6人 × ¥350/天</td><td>¥29,400</td></tr>
+<tr><td>货架拆解</td><td>7天 × 4人 × ¥400/天</td><td>¥11,200</td></tr>
+<tr><td>货架安装</td><td>9天 × 4人 × ¥400/天</td><td>¥14,400</td></tr>
+<tr class="highlight"><td><b>搬仓总成本</b></td><td></td><td><b>¥96,213</b></td></tr>
 </table>
+<p class="note">搬运工: 广州力工¥350/天（含装卸两端）; 货架工: 专业拆装¥400/天<br>
+运输方案B（7.6米车）: 89趟×¥350=¥31,150（运费接近，但多18趟更耗时）</p>
 </div>
 
 <!-- 回本分析 -->
@@ -162,7 +157,7 @@ li { margin-bottom: 6px; }
 <tr><th>情景</th><th>一次性支出</th><th>月节省</th><th>回本周期</th></tr>
 <tr class="highlight"><td><b>情景A：旧仓押金正常退回</b></td><td>¥57,531（纯搬仓费）</td><td>¥23,535</td><td><b>2.4个月</b></td></tr>
 <tr><td>情景B：旧仓押金损失50%</td><td>¥57,531 + ¥108,450 = ¥165,981</td><td>¥23,535</td><td>7.1个月</td></tr>
-<tr class="danger"><td>情景C：旧仓押金全部损失</td><td>¥57,531 + ¥216,900 = ¥274,431</td><td>¥23,535</td><td><b>11.0个月</b></td></tr>
+<tr class="danger"><td>情景C：旧仓押金全部损失</td><td>¥57,531 + ¥216,900 = ¥274,431</td><td>¥23,535</td><td><b>13.3个月</b></td></tr>
 <tr class="warning"><td>情景D：押金全损 + 违约金1个月</td><td>¥274,431 + ¥72,314 = ¥346,745</td><td>¥23,535</td><td>14.7个月</td></tr>
 </table>
 <p class="note">* 以上未含新仓押金¥157,275（属于资产转移，非沉没成本）</p>
